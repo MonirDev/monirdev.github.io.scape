@@ -28610,41 +28610,41 @@ GM:function GM(a){this.a=a},
 Bg:function Bg(a){this.a=a},
 aFt(){var s=0,r=A.v(t.H),q,p,o,n,m,l,k
 var $async$aFt=A.w(function(a,b){if(a===1)return A.r(b,r)
-while(true)switch(s){case 0:if($.a7==null)A.aIL()
-$.a7.toString
-q=A.bN("GetStorage").e
-q===$&&A.b()
-s=2
-return A.n(q,$async$aFt)
-case 2:new A.AJ().hk()
-q=$.nh;(q==null?$.nh=new A.ud():q).a=B.OX
-q=self.document.baseURI
-if(q==null)q=null
-if(q==null)A.K(A.cO("Please add a <base> element to your index.html"))
-if(!J.aW7(q,"/"))A.K(A.cO('The base href has to end with a "/" to work correctly'))
-q=A.dD(q,0,null)
-q=A.b8m(A.aJC(q.gcG(q)))
+while(true)switch(s){case 0:k=self.document.baseURI
+if(k==null)k=null
+if(k==null)A.K(A.cO("Please add a <base> element to your index.html"))
+if(!J.aW7(k,"/"))A.K(A.cO('The base href has to end with a "/" to work correctly'))
+k=A.dD(k,0,null)
+k=A.b8m(A.aJC(k.gcG(k)))
 $.aDS=!1
 $.a4P=!0
-$.a4x=new A.akQ(q,B.mX)
+$.a4x=new A.akQ(k,B.mX)
 if($.a7==null)A.aIL()
-q=$.a7
+$.a7.toString
+k=A.bN("GetStorage").e
+k===$&&A.b()
+s=2
+return A.n(k,$async$aFt)
+case 2:new A.AJ().hk()
+k=$.nh;(k==null?$.nh=new A.ud():k).a=B.OX
+if($.a7==null)A.aIL()
+k=$.a7
+k.toString
+q=$.b0()
+p=t.e8
+o=p.a(q.gdA().b.h(0,0))
+o.toString
+n=k.gDp()
+m=k.cx$
+if(m===$){q=p.a(q.gdA().b.h(0,0))
 q.toString
-p=$.b0()
-o=t.e8
-n=o.a(p.gdA().b.h(0,0))
-n.toString
-m=q.gDp()
-l=q.cx$
-if(l===$){p=o.a(p.gdA().b.h(0,0))
-p.toString
-k=new A.a0H(B.u,p,null,A.at(t.T))
-k.aI()
-k.a79(null,null,p)
-q.cx$!==$&&A.ak()
-q.cx$=k
-l=k}q.a1I(new A.UO(n,B.Mg,m,l,null))
-q.Nh()
+l=new A.a0H(B.u,q,null,A.at(t.T))
+l.aI()
+l.a79(null,null,q)
+k.cx$!==$&&A.ak()
+k.cx$=l
+m=l}k.a1I(new A.UO(o,B.Mg,n,m,null))
+k.Nh()
 return A.t(null,r)}})
 return A.u($async$aFt,r)},
 QO:function QO(a){this.a=a},
